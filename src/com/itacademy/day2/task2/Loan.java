@@ -1,4 +1,4 @@
-package com.itacademy.day2;
+package com.itacademy.day2.task2;
 
 public class Loan {
     private String id;
@@ -46,5 +46,12 @@ public class Loan {
 
     public void setType(LoanType type) {
         this.type = type;
+    }
+
+    public void printLoanInformation(){
+        System.out.println("ID: "+id);
+        System.out.println("Amount: "+amount);
+        System.out.println("Termination date: "+terminationDate);
+        System.out.println("Loan type: " + type);
     }
 }
