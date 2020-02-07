@@ -1,4 +1,4 @@
-package com.itacademy.day4;
+package com.itacademy.day4.warmup1;
 
 public class Address {
     String street;

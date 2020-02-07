@@ -1,4 +1,4 @@
-package com.itacademy.day4;
+package com.itacademy.day4.warmup1;
 
 public class MathStudent extends Person implements Student {
     int studentNumber;
