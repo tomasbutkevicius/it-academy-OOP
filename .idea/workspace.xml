@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84ac4073-0a6c-4e86-b106-daee1b3548d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/itacademy/day3/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itacademy/day3/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itacademy/day3/Contractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itacademy/day3/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itacademy/day3/FullTimeEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itacademy/day3/InsufficientFundsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itacademy/day3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task1/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task1/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task1/EmployeeManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task1/EmployeeManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task1/EmployeeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task1/EmployeeType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task2/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task2/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task2/Loan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task2/Loan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task2/LoanType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task2/LoanType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task2/LoansApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task2OOP/com/itacademy/day2/task2/LoansApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,50 +96,56 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="130" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1580992891191" />
-    <state x="38" y="16" key="CommitChangelistDialog2" timestamp="1580927077439">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="40" y="16" key="CommitChangelistDialog2" timestamp="1580996332853">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="38" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1580927077439" />
-    <state x="165" y="176" key="FileChooserDialogImpl" timestamp="1580925975946">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="40" y="16" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580996332853" />
+    <state x="172" y="181" key="FileChooserDialogImpl" timestamp="1581070981618">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="165" y="176" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1580925975946" />
-    <state width="740" height="204" key="GridCell.Tab.0.bottom" timestamp="1580995707808">
+    <state x="172" y="181" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1581070981618" />
+    <state width="740" height="254" key="GridCell.Tab.0.bottom" timestamp="1580996553842">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1580927643860" />
-    <state width="740" height="204" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580995707808" />
-    <state width="740" height="204" key="GridCell.Tab.0.center" timestamp="1580995707808">
+    <state width="740" height="254" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580996553842" />
+    <state width="740" height="254" key="GridCell.Tab.0.center" timestamp="1580996553842">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1580927643860" />
-    <state width="740" height="204" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580995707808" />
-    <state width="740" height="204" key="GridCell.Tab.0.left" timestamp="1580995707808">
+    <state width="740" height="254" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580996553842" />
+    <state width="740" height="254" key="GridCell.Tab.0.left" timestamp="1580996553842">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1580927643859" />
-    <state width="740" height="204" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580995707808" />
-    <state width="740" height="204" key="GridCell.Tab.0.right" timestamp="1580995707808">
+    <state width="740" height="254" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580996553842" />
+    <state width="740" height="254" key="GridCell.Tab.0.right" timestamp="1580996553842">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1580927643860" />
-    <state width="740" height="204" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580995707808" />
-    <state width="740" height="254" key="GridCell.Tab.1.bottom" timestamp="1580994645004">
+    <state width="740" height="254" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580996553842" />
+    <state width="740" height="254" key="GridCell.Tab.1.bottom" timestamp="1580996553842">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="740" height="254" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580994645004" />
-    <state width="740" height="254" key="GridCell.Tab.1.center" timestamp="1580994645004">
+    <state width="740" height="254" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580996553842" />
+    <state width="740" height="254" key="GridCell.Tab.1.center" timestamp="1580996553842">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="740" height="254" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1580994645004" />
-    <state width="740" height="254" key="GridCell.Tab.1.left" timestamp="1580994645004">
+    <state width="740" height="254" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1580996553842" />
+    <state width="740" height="254" key="GridCell.Tab.1.left" timestamp="1580996553842">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="740" height="254" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1580994645004" />
-    <state width="740" height="254" key="GridCell.Tab.1.right" timestamp="1580994645004">
+    <state width="740" height="254" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1580996553842" />
+    <state width="740" height="254" key="GridCell.Tab.1.right" timestamp="1580996553842">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="740" height="254" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1580994645004" />
+    <state width="740" height="254" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1580996553842" />
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1581070961123">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1581070961123" />
     <state x="127" y="40" key="refactoring.ChangeSignatureDialog" timestamp="1580924665624">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
