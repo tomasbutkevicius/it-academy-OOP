@@ -24,6 +24,12 @@ export class PostsService {
       .pipe(catchError(this.errorHandler));
   }
 
+  removePost(post: Observable<Post>): Observable<Post> {
+    return this.httpClient
+      .delete<Post>(`${this.apiPath}/posts`)
+      .pipe(catchError(this.errorHandler));
+  }
+
   errorHandler() {
     return throwError(
       "Sorry, our services does not work right now, please try that later"

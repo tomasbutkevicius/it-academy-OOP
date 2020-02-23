@@ -12,10 +12,11 @@ import { HttpClientModule } from "@angular/common/http";
 import { PostWritingComponent } from "./post-writing/post-writing.component";
 import { PostFormComponent } from "./post-form/post-form.component";
 import { ReactiveFormsModule } from "@angular/forms";
+import { EditPostComponent } from './edit-post/edit-post.component';
 
 const appRoutes: Routes = [
   { path: "home", component: HomePageComponent },
-  { path: "posts/edit", component: PostWritingComponent },
+  { path: "post/edit/:id", component: EditPostComponent },
   { path: "posts/add", component: PostWritingComponent },
   { path: "post/:id", component: PostPageComponent },
   { path: "about", component: AboutPageComponent },
@@ -33,7 +34,8 @@ const appRoutes: Routes = [
     NotFoundComponent,
     RecentPostsComponent,
     PostFormComponent,
-    PostWritingComponent
+    PostWritingComponent,
+    EditPostComponent
   ],
   imports: [
     BrowserModule,

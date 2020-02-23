@@ -33,6 +33,21 @@ postForm = this.fb.group({
   ]],
 });
 
+  
+  ngOnInit(): void {
+    this.post = { author: "", content: "", email: "", title: "" };
+  }
+
+  onSubmit() {
+    this.post = this.postForm.value;
+    this.postsService.addPost(this.post).subscribe(() => {
+      this.post = { author: "", content: "", email: "", title: "" };
+      this.serverErrorMessage = '';
+    },
+      error => this.serverErrorMessage = error
+    );
+  }
+  
   get author(){
     return this.postForm.get('author');
   }
@@ -46,17 +61,4 @@ postForm = this.fb.group({
     return this.postForm.get('title');
   }
 
-  ngOnInit(): void {
-    this.post = { author: "", content: "", email: "", title: "" };
-  }
-
-  onSubmit() {
-    this.postsService.addPost(this.post).subscribe(
-      () => {
-        this.post = { author: "", content: "", email: "", title: "" };
-        this.serverErrorMessage = "";
-      },
-      error => (this.serverErrorMessage = error)
-    );
-  }
 }
