@@ -1,6 +1,6 @@
 <div class="container">
     <h2 class="text-center">Would you like to try?</h2>
-    <form *ngIf="post$ | async as post" [formGroup]="postForm"
+    <form [formGroup]="postForm"
     (ngSubmit)="onSubmit(); postForm.reset()">
       <div class="form-group">
         <label for="author">Your name</label>

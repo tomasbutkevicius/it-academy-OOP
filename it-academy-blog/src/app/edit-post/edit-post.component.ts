@@ -14,9 +14,8 @@ import { switchMap, tap } from 'rxjs/operators';
 export class EditPostComponent implements OnInit {
 
   constructor(private postsService: PostsService, private fb: FormBuilder, private route: ActivatedRoute) {}
-  public post$: Observable<Post>;
   public post: Post;
-  public postContent: string[];
+  public id: number;
   serverErrorMessage: string;
 
 postForm = this.fb.group({
@@ -38,7 +37,29 @@ postForm = this.fb.group({
   ]],
 });
 
-  get author(){
+  
+
+  ngOnInit(): void {
+    this.route.params.subscribe(params => {
+      this.id = +params['id']; // (+) converts string 'id' to a number         
+      console.log(this.id);
+    });
+    this.post = { author: "", content: "", email: "", title: "" };
+  }
+
+
+  onSubmit() {
+    
+    this.post = this.postForm.value;
+    this.postsService.updatePost(this.id, this.post).subscribe(() => {
+      this.post = { author: "", content: "", email: "", title: "" };
+      this.serverErrorMessage = '';
+    },
+      error => this.serverErrorMessage = error
+    );
+  }
+
+get author(){
     return this.postForm.get('author');
   }
   get content(){
@@ -50,28 +71,4 @@ postForm = this.fb.group({
   get title(){
     return this.postForm.get('title');
   }
-
-  ngOnInit(): void {
-    this.post$ = from(this.route.paramMap).pipe(
-      switchMap(params => {
-        return this.postsService.getPost({ id: params.get("id") });
-      }),
-      tap(post => {
-        this.postContent = post.content.split("\n");
-      })
-    );
-  }
-
-
-  onSubmit() {
-    this.post = this.postForm.value;
-    this.postsService.removePost(this.post$);
-    this.postsService.addPost(this.post).subscribe(() => {
-      this.post = { author: "", content: "", email: "", title: "" };
-      this.serverErrorMessage = '';
-    },
-      error => this.serverErrorMessage = error
-    );
-  }
-
 }
